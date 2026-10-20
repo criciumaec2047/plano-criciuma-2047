@@ -76,14 +76,28 @@ img {
   position: absolute;
   width: 22px;
   height: 22px;
-  background: var(--yellow);
   transform: rotate(45deg);
-  border: 3px solid var(--black);
+  border: 2px solid #111;
 }
 
-.d1 { left: 4px; top: 15px; }
-.d2 { left: 17px; top: 2px; }
-.d3 { left: 30px; top: 15px; }
+.d1 {
+  left: 4px;
+  top: 15px;
+  background: #f5c400;
+}
+
+.d2 {
+  left: 17px;
+  top: 2px;
+  background: #111111;
+  border-color: #f5c400;
+}
+
+.d3 {
+  left: 30px;
+  top: 15px;
+  background: #ffffff;
+}
 
 .brand-copy {
   display: grid;
